@@ -1,0 +1,58 @@
+[
+  {
+    "exercicio": "Supino Reto Halter",
+    "repeticoes": 10,
+    "series": 3,
+    "descanso": 60,
+    "link": "https://www.youtube.com/watch?v=Spbmm66NsuY"
+  },
+  {
+    "exercicio": "Puxada Alta no Pulley",
+    "repeticoes": 8,
+    "series": 4,
+    "descanso": 60,
+    "link": "https://www.youtube.com/watch?v=H09EvebBsB4"
+  },
+  {
+    "exercicio": "Remada Baixa",
+    "repeticoes": 10,
+    "series": 3,
+    "descanso": 45,
+    "link": "https://www.youtube.com/watch?v=wC1EsDy_esM"
+  },
+  {
+    "exercicio": "Elevação Lateral com halteres",
+    "repeticoes": 10,
+    "series": 3,
+    "descanso": 45,
+    "link": "https://www.youtube.com/watch?v=89K5H0Vvhnw"
+  },
+  {
+    "exercicio": "Bíceps Rosca Direta com Halteres",
+    "repeticoes": 8,
+    "series": 3,
+    "descanso": 45,
+    "link": "https://www.youtube.com/watch?v=ilyxkSNoyL8"
+  },
+  {
+    "exercicio": "Bíceps Rosca Barra W",
+    "repeticoes": 8,
+    "series": 3,
+    "descanso": 45,
+    "link": "https://www.youtube.com/watch?v=po8ibB0yY0Q"
+  },
+  {
+    "exercicio": "Tríceps pulley pegada pronada",
+    "repeticoes": 12,
+    "series": 3,
+    "descanso": 40,
+    "link": "https://www.youtube.com/watch?v=QDt8P44ORa4"
+  },
+  {
+    "exercicio": "Tríceps Corda",
+    "repeticoes": 12,
+    "series": 3,
+    "descanso": 40,
+    "link": "https://www.youtube.com/watch?v=_KrR8248eLo"
+  }
+]
