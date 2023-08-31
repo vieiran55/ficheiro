@@ -2,6 +2,10 @@
 @import "../../styles/variaveis";
 @import "../../styles/breakpoints";
 
+.conteiner{
+  @apply flex flex-col justify-center items-center -mt-32;
+}
+
 .lista{
   @apply flex flex-col items-center ;
   &__titulo{
@@ -25,7 +29,7 @@
 .tabela{
   @apply border-collapse text-center;
   &__head{
-    @apply border-2 border-black;
+    @apply border-2 border-black bg-slate-600;
   }
   &__body{
     @apply border-2 border-black;
@@ -35,5 +39,35 @@
   }
   .confirmado{
     @apply fill-green-600;
+  }
+}
+
+.tabela__linhas{
+  @apply border-2 border-black bg-gray-400;
+  &__pessoas{
+    word-wrap: break-word; max-width: 130px;
+  }
+}
+
+.tabela__linhas:nth-child(even) {
+  background:lightgray;
+}
+
+.movimentoImagem{
+  background-image: url(../../assets/images/moveta2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: hero-animation 2s steps(5) infinite;
+  @apply h-[5.5rem] w-20 my-8;
+}
+
+
+@keyframes hero-animation {
+  from {
+      background-position-y: 0;
+  }
+
+  to {
+      background-position-y: -451px;
   }
 }

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handjet&family=Sedgwick+Ave+Display&display=swap");
+@import "../styles/variaveis";
+@import "../styles/breakpoints";
+
+.home {
+  background: rgb(34,193,195);
+  background: linear-gradient(360deg, rgba(34,193,195,1) 0%, rgba(255,255,255,1) 67%);
+  height: 1050px;
+  @apply flex flex-col justify-around items-center;
+  &__titulo {
+    font-family: "Sedgwick Ave Display", cursive;
+    text-shadow: black 0.1em 0.1em 0.1em;
+    @apply text-center font-bold text-4xl text-rubi mt-8 p-4;
+  }
+  &__ferramentas {
+    @apply flex flex-row w-full items-center justify-center;
+  }
+}
